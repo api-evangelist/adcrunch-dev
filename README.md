@@ -66,7 +66,7 @@
 
 AdCrunch provides agentic media buying automation for Meta, TikTok, and Google Ads. It offers AI‑driven campaign management with real‑time guardrails, budgeting limits, and detailed activity logs. Users can set rules, monitor performance, and let the platform execute changes across ad accounts without writing code, while maintaining full audit trails and compliance.
 
-**Areas:** Advertising · AI · Marketing · Automation · Media Buying
+**Areas:** Advertising · Artificial Intelligence · Marketing · Automation · Media Buying
 
 ## AdCrunch on APIs.io
 
@@ -99,11 +99,17 @@ Everything profiled for AdCrunch is published on APIs.io rather than in this rep
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [adcrunch-dev-mcp.yml](https://apis.io/servers/adcrunch-dev/adcrunch-dev-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Adcrunch Dev Agentic Access](https://apis.io/agentic-access/adcrunch-dev/adcrunch-dev-agentic-access/)
+- [AdCrunch Agentic Access](https://apis.io/agentic-access/adcrunch-dev/adcrunch-dev-agentic-access/)
 
 #### Governance rules (1)
 
@@ -115,14 +121,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adcrunch Dev Authentication](https://apis.io/security/adcrunch-dev/adcrunch-dev-authentication/)
-- [Adcrunch Dev Domain Security](https://apis.io/security/adcrunch-dev/adcrunch-dev-domain-security/)
+- [AdCrunch Authentication](https://apis.io/security/adcrunch-dev/adcrunch-dev-authentication/)
+- [AdCrunch Domain Security](https://apis.io/security/adcrunch-dev/adcrunch-dev-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Adcrunch Dev Plans Pricing](https://apis.io/plans/adcrunch-dev/adcrunch-dev-plans-pricing/)
+- [AdCrunch Plans Pricing](https://apis.io/plans/adcrunch-dev/adcrunch-dev-plans-pricing/)
 
 ## Where to find this API
 
@@ -141,23 +147,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 54.7** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 48.6** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 49.5 |
-| Contract governance | 79.1 |
-| Operational transparency | 5.3 |
-| Developer ergonomics | 58.8 |
-| Access clarity | 63.7 |
+| Discoverability | 81.7 |
+| Contract quality | 52.5 |
+| Contract governance | 22.0 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 54.2 |
+| Access clarity | 68.1 |
 
-**Agent readiness 51.6** — agent-ready (gated down from agent-native)
+**Agent readiness 50.4** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -166,19 +172,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | verified |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
 | Protected Resource Metadata | verified |
-| Dynamic Client Registration | — |
+| Dynamic Client Registration | yes |
 | Agentic Commerce | — |
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | yes |
+| Markdown Negotiation | yes |
 
-**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adcrunch-dev/](https://apis.io/providers/adcrunch-dev/).
 
